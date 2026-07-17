@@ -5,21 +5,21 @@
 class CiSnitch < Formula
   desc "CI performance analyzer — detects regressions, outliers, and trends in GitHub Actions"
   homepage "https://github.com/vertti/ci-snitch"
-  version "0.27.0"
+  version "0.28.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/vertti/ci-snitch/releases/download/v0.27.0/ci-snitch_0.27.0_darwin_amd64.tar.gz"
-      sha256 "3464459deed7cbd6eca6d74de7c1387387c1bf78cbe3edbb4a64ed604998f438"
+      url "https://github.com/vertti/ci-snitch/releases/download/v0.28.0/ci-snitch_0.28.0_darwin_amd64.tar.gz"
+      sha256 "0b8e6d655e3b59353ddc51017fec127c24e5044681361ef100532c7c20e79919"
 
       define_method(:install) do
         bin.install "ci-snitch"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/vertti/ci-snitch/releases/download/v0.27.0/ci-snitch_0.27.0_darwin_arm64.tar.gz"
-      sha256 "d675a573febb4461cd7ccee0211e27afe87cdf5d130310bf740bc561ea84e959"
+      url "https://github.com/vertti/ci-snitch/releases/download/v0.28.0/ci-snitch_0.28.0_darwin_arm64.tar.gz"
+      sha256 "4e150511c245dcdff3df162717d236b48c6e8dd8ece400146717d0dd5c73848a"
 
       define_method(:install) do
         bin.install "ci-snitch"
@@ -29,15 +29,15 @@ class CiSnitch < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/vertti/ci-snitch/releases/download/v0.27.0/ci-snitch_0.27.0_linux_amd64.tar.gz"
-      sha256 "8db41c5c6e870cef4ffdd73fcc68f6010fbbb9785bd8d80f75c0fad586bd8810"
+      url "https://github.com/vertti/ci-snitch/releases/download/v0.28.0/ci-snitch_0.28.0_linux_amd64.tar.gz"
+      sha256 "a98e3c747ea3d7442975d574610248e6bfa262ae70157ec5b5d91743b00bcb6a"
       define_method(:install) do
         bin.install "ci-snitch"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/vertti/ci-snitch/releases/download/v0.27.0/ci-snitch_0.27.0_linux_arm64.tar.gz"
-      sha256 "272fe9be3afd38d48e41ac073986a9e6ab85fbf0b69abec62c6825e75062024e"
+      url "https://github.com/vertti/ci-snitch/releases/download/v0.28.0/ci-snitch_0.28.0_linux_arm64.tar.gz"
+      sha256 "23506267f96ad050cd3ab1f880e305e0a7966d04662d5bfe5fa7aaa6add1e137"
       define_method(:install) do
         bin.install "ci-snitch"
       end
