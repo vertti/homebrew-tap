@@ -6,23 +6,23 @@ class PgTunnel < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/vertti/pg-tunnel/releases/download/v0.5.2/pg-tunnel_darwin_arm64.tar.xz"
-      sha256 "5976d2fa42441f9ea470ed2abb71f3fd8a7b5ae64d1d65bbd2b644ac2794b46b"
+      url "https://github.com/vertti/pg-tunnel/releases/download/v0.5.3/pg-tunnel_darwin_arm64.tar.xz"
+      sha256 "9f1d4a750a4888fc0762f1b8094f771e72b3568ffdc7dfd760be1bb613ef48ae"
     end
     on_intel do
-      url "https://github.com/vertti/pg-tunnel/releases/download/v0.5.2/pg-tunnel_darwin_amd64.tar.xz"
-      sha256 "ed4046e3ddcec0d26cfc23437b911dd2b30ac13002cd6516663a801dfef796f2"
+      url "https://github.com/vertti/pg-tunnel/releases/download/v0.5.3/pg-tunnel_darwin_amd64.tar.xz"
+      sha256 "81d7fa286426ad40ba566a301bb53aa4f270f19a5cef2d138dc3c02808a5ecf5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vertti/pg-tunnel/releases/download/v0.5.2/pg-tunnel_linux_arm64.tar.xz"
-      sha256 "77d87a74a501927a4e24420cfbd111b7ab71d7b1a29405097af1c4ee1c30bf8f"
+      url "https://github.com/vertti/pg-tunnel/releases/download/v0.5.3/pg-tunnel_linux_arm64.tar.xz"
+      sha256 "85eeca042c7f84660420e40505b3b7d5543f4590fdf959007e3cdb7100157b00"
     end
     on_intel do
-      url "https://github.com/vertti/pg-tunnel/releases/download/v0.5.2/pg-tunnel_linux_amd64.tar.xz"
-      sha256 "b4675a492dac214f91142b09d508d6077df7d96e045794ad47fdbdaaeb7f7803"
+      url "https://github.com/vertti/pg-tunnel/releases/download/v0.5.3/pg-tunnel_linux_amd64.tar.xz"
+      sha256 "050efa327fff2d2b5c8c47a90cc1b11aa87fd19a30057ceb5fd9d2d2d98d7d44"
     end
   end
 
